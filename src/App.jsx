@@ -1,20 +1,20 @@
 
 import './App.css'
-import DaisyNav from './Component/Daisynav/DaisyNav'
+// import DaisyNav from './Component/Daisynav/DaisyNav'
 import Navbar from './Component/Navbar/Navbar'
+import PriceOptions from './Component/PriceOptions/PriceOptions'
 
 function App() {
 
   return (
-    <>
-      <div>
-        <Navbar/>
-        <DaisyNav/>
-        <h2 className='text-3xl text-center font-semibold'>Price Options</h2>
-        
-      </div>
 
-    </>
+    <div>
+      <Navbar />
+      {/* <DaisyNav/> */}
+
+      <h1 className='text-5xl text-center font-semibold'>Price options</h1>
+      <PriceOptions />
+    </div>
   )
 }
 
